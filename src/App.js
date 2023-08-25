@@ -176,7 +176,7 @@ export default function App() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<Navbar orderValue= {orderValue} />}>
+      <Route path='swiggy-clone' element={<Navbar orderValue= {orderValue} />}>
         <Route index element={<MainContainer items={items} getItems={getItems}/>}/>
         <Route path='cart' element={<FoodCart total={total} decreaseQuantity={decreaseQuantity} increaseQuantity={increaseQuantity} cartItems={demoCart}/>}/>
       </Route>
