@@ -166,7 +166,7 @@ export default function App() {
 
   function updateTotal()
   {
-    let sum=0;
+      let sum=0;
       for(let i =0;i<demoCart.length;i++)
       {
         sum+=(demoCart[i].price * demoCart[i].quantity)
@@ -182,7 +182,7 @@ export default function App() {
       </Route>
     )
   )
-   
+    
 
   return (
     <>
