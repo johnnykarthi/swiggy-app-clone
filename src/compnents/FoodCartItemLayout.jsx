@@ -1,6 +1,6 @@
 import React from 'react'
 import FoodCartItem from './FoodCartItem'
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function FoodCartItemLayout({cartItems,getItem2,getItem,total}) {
     function getItems2(item){
@@ -23,9 +23,9 @@ export default function FoodCartItemLayout({cartItems,getItem2,getItem,total}) {
                 <h5>₹ {total}</h5>
             </div>
             <div class="d-flex float-end">
-                <Link to='/swiggy-clone'>
+                <Link to='/swiggy-app-clone'>
                 <div className='d-flex justify-content-center align-items-center'>
-                <a href='/swiggy-clone' class="btn-style-2"><div>Close</div></a>
+                <a href='/swiggy-app-clone' class="btn-style-2"><div>Close</div></a>
                 </div></Link>
                 <button class="btn-style-1">Order</button>
             </div>

@@ -13,7 +13,7 @@ export default function Navbar({orderValue}) {
         <>
         <div className="nav">
             <div className="logo-box">
-                <Link to='/swiggy-clone'>
+                <Link to='/swiggy-app-clone'>
                 <img
                     src="https://cdn.worldvectorlogo.com/logos/swiggy-1.svg"
                     alt=""
